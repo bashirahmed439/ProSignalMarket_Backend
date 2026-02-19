@@ -46,7 +46,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: `http://localhost:${PORT}`,
+                url: `http://backend.prosignalmarket.com:${PORT}`,
             },
         ],
     },
