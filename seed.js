@@ -4,7 +4,7 @@ const User = require('./models/User');
 
 const seedDatabase = async () => {
     try {
-        const mongoUri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/signology';
+        const mongoUri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/prosignal';
         console.log('Connecting to MongoDB for seeding at:', mongoUri);
 
         await mongoose.connect(mongoUri);
