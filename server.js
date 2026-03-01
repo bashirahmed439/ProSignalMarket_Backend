@@ -88,7 +88,7 @@ app.get('/', (req, res) => {
 // Start Server Immendiately (so Swagger works)
 app.listen(PORT, () => {
     console.log(`🚀 Server running on port ${PORT}`);
-    console.log(`📖 Swagger UI available at http://localhost:${PORT}/api-docs`);
+    console.log(`📖 Swagger UI available at http://backend.prosignalmarket.com:${PORT}/api-docs`);
 });
 
 // MongoDB Connection (Attempt in background)
